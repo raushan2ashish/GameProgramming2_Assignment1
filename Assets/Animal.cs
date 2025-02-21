@@ -108,7 +108,7 @@ public class Dolphin : Animal, IInteractable, IMovable
     {
         animalName = "Dolphin";
         hunger = 25.0f;
-        isSleeping = false;
+        isSleeping = true;
     }
 
     public override void MakeSound()
